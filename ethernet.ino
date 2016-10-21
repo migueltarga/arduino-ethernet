@@ -53,7 +53,6 @@ void loop()
 			Serial.write(msg,size);
 			free(msg);
 		}
-		client.println("<h1>Hello World!</h1>");
 		client.println(nPessoas);
 		client.stop();
 	}
