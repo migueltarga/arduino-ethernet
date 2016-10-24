@@ -15,7 +15,7 @@
 
 		    while($row = $stmt->fetch()) {
 
-        	echo "Data: {$row['timeStamp']} - Valor1: {$row['temperature']} -  Valor2: {$row['humidity']} <br/>";
+        	echo "Numero de Pessoas: {$row['quant_pessoas']} <br/>";
     }
       ?>
 </body>
