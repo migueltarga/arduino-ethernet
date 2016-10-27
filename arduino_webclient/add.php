@@ -6,6 +6,6 @@
 	$stmt->bindParam(':sensor1', $_GET['sensor1'], PDO::PARAM_INT);
 	$stmt->bindParam(':sensor2', $_GET['sensor2'], PDO::PARAM_INT);
 	$stmt->bindParam(':pessoas', $_GET['pessoas'], PDO::PARAM_INT);
-	$sth->execute();
+	$stmt->execute();
 
 	echo "ok";
