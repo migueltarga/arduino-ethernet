@@ -9,3 +9,4 @@
 	$stmt->execute();
 
 	echo "ok";
+?>
